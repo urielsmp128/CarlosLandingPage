@@ -1,0 +1,41 @@
+.footer {
+  background: var(--color-secondary);
+  padding: 28px 0;
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer__brand {
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+.footer__social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__social a {
+  color: #c9d1d0;
+  transition: color 0.2s ease;
+}
+
+.footer__social a:hover {
+  color: var(--color-white);
+}
+
+.footer__copy {
+  color: #8a9694;
+  font-size: 0.85rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

@@ -38,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://{urielsmp128}.github.io/{CarlosLandingPage}",
+  "homepage": "https://urielsmp128.github.io/CarlosLandingPage",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }

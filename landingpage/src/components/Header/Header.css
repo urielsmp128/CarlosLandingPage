@@ -22,6 +22,36 @@
   white-space: nowrap;
 }
 
+.header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__name {
+  font-size: 1.15rem;
+}
+
+.header__logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  /* logo art has a light-gray backdrop; multiply lets it blend into the header */
+  mix-blend-mode: multiply;
+}
+
+@media (max-width: 860px) {
+  .header__logo {
+    height: 44px;
+  }
+
+  .header__name {
+    font-size: 1rem;
+    white-space: normal;
+    line-height: 1.2;
+  }
+}
+
 .header__nav {
   display: flex;
   align-items: center;
@@ -39,6 +69,42 @@
 
 .header__nav a:hover {
   color: var(--color-primary);
+}
+
+.header__link {
+  position: relative;
+  padding: 6px 0;
+}
+
+.header__link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.header__link:hover::after,
+.header__link:focus-visible::after,
+.header__link--active::after {
+  transform: scaleX(1);
+}
+
+.header__nav a.header__link--active {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header__link::after {
+    transition: none;
+  }
 }
 
 .header__whatsapp {

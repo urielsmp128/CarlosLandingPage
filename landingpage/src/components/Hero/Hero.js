@@ -1,4 +1,5 @@
 import { PhoneIcon } from '../../assets/icons/Icons';
+import heroImage from '../../assets/images/hero.webp';
 import './Hero.css';
 
 function Hero() {
@@ -24,10 +25,12 @@ function Hero() {
           </div>
         </div>
 
-        <div className="hero__media" aria-hidden="true">
-          <div className="hero__media-frame">
-            <span>Carlos Maldonado Íñiguez</span>
-          </div>
+        <div className="hero__media">
+          <img
+            src={heroImage}
+            alt="Servicios de fontanería y electricidad"
+            className="hero__image"
+          />
         </div>
       </div>
     </section>

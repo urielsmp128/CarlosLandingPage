@@ -40,23 +40,12 @@
   text-decoration: none;
 }
 
-.hero__media-frame {
-  aspect-ratio: 4 / 5;
+.hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: var(--radius-lg);
-  background: linear-gradient(155deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  display: flex;
-  align-items: flex-end;
-  padding: 24px;
   box-shadow: var(--shadow-md);
-}
-
-.hero__media-frame span {
-  color: var(--color-white);
-  font-weight: 700;
-  font-size: 1.1rem;
-  background: rgba(13, 27, 30, 0.35);
-  padding: 10px 16px;
-  border-radius: var(--radius-sm);
 }
 
 @media (max-width: 860px) {
@@ -66,9 +55,5 @@
 
   .hero__media {
     order: -1;
-  }
-
-  .hero__media-frame {
-    aspect-ratio: 16 / 9;
   }
 }

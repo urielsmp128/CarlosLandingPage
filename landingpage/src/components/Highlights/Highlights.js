@@ -26,8 +26,8 @@ function Highlights() {
         <div className="highlights__header">
           <h2>Servicios Profesionales de Fontanería y Electricidad</h2>
           <p>
-            Descubra cómo nuestros expertos garantizan calidad y atención personalizada en
-            cada proyecto, facilitando su comunicación a través de múltiples canales.
+            Descubra cómo garantizamos calidad y atención personalizada en
+            cada proyecto, facilitando la comunicación a través de múltiples canales.
           </p>
         </div>
 

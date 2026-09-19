@@ -12,6 +12,9 @@
 }
 
 .footer__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
   color: var(--color-white);
   font-weight: 600;
 }
@@ -38,4 +41,11 @@
 .icon {
   width: 20px;
   height: 20px;
+}
+
+.footer__logo {
+  height: 44px;
+  width: auto;
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
 }

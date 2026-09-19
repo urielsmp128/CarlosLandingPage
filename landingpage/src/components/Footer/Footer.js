@@ -1,4 +1,5 @@
 import { MailIcon, FacebookIcon } from '../../assets/icons/Icons';
+import logo from '../../assets/images/logo.jpg';
 import './Footer.css';
 
 function Footer() {
@@ -7,7 +8,10 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container footer__inner">
-        <span className="footer__brand">Carlos Maldonado Íñiguez</span>
+        <span className="footer__brand">
+          <img src={logo} alt="Fontanero Electricista" className="footer__logo" />
+          Carlos Maldonado Íñiguez
+        </span>
 
         <div className="footer__social">
           <a href="mailto:carlosmaldon2010@live.com" aria-label="Correo electrónico">

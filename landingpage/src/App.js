@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import FloatingActions from './components/FloatingActions/FloatingActions';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <FloatingActions />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { StarIcon } from '../../assets/icons/Icons';
 import './Reviews.css';
 
+// Keep in sync with the `review` entries in the LocalBusiness JSON-LD in public/index.html.
 const REVIEWS = [
   {
     name: 'Uriel Madrigal',

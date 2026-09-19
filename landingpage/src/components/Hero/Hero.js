@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero__inner container">
         <div className="hero__content">
           <h1>
-            Servicios especializados de fontanería y electricidad con garantía de 3 meses.
+            Fontanero y electricista en Zapopan y Guadalajara con garantía de 3 meses.
           </h1>
           <p>
             Brindamos soluciones confiables en fontanería y electricidad, usando materiales
@@ -28,7 +28,10 @@ function Hero() {
         <div className="hero__media">
           <img
             src={heroImage}
-            alt="Servicios de fontanería y electricidad"
+            alt="Electricista con herramientas en el cinturón instalando cableado eléctrico"
+            width="600"
+            height="423"
+            fetchPriority="high"
             className="hero__image"
           />
         </div>

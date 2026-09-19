@@ -40,7 +40,7 @@ function Header() {
     <header className="header">
       <div className="header__inner container">
         <a href="#inicio" className="header__brand">
-          <img src={logo} alt="Fontanero Electricista" className="header__logo" />
+          <img src={logo} alt="Carlos Maldonado, fontanero y electricista en Zapopan" width="360" height="248" className="header__logo" />
           <span className="header__name">Carlos Maldonado Íñiguez</span>
         </a>
 

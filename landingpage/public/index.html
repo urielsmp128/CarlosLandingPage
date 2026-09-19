@@ -1,43 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0d1b1e" />
+
+    <title>Fontanero y electricista en Zapopan y Guadalajara | Carlos Maldonado</title>
     <meta
       name="description"
-      content="Carlos Maldonado Íñiguez - Servicios profesionales de fontanería y electricidad con garantía de 3 meses."
+      content="Fontanero y electricista con más de 15 años de experiencia en Zapopan y Guadalajara. Reparación de fugas, instalaciones eléctricas y más, con garantía de 3 meses y cotización sin compromiso."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link rel="canonical" href="https://fontaneroelectricista.com/" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Carlos Maldonado Íñiguez | Fontanería y Electricidad</title>
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:site_name" content="Carlos Maldonado Íñiguez | Fontanero y Electricista" />
+    <meta property="og:title" content="Fontanero y electricista en Zapopan y Guadalajara | Carlos Maldonado" />
+    <meta
+      property="og:description"
+      content="Más de 15 años de experiencia en fontanería y electricidad. Garantía de 3 meses y cotización sin compromiso."
+    />
+    <meta property="og:url" content="https://fontaneroelectricista.com/" />
+    <meta property="og:image" content="https://fontaneroelectricista.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Logo de Fontanero Electricista" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fontanero y electricista en Zapopan y Guadalajara | Carlos Maldonado" />
+    <meta
+      name="twitter:description"
+      content="Más de 15 años de experiencia en fontanería y electricidad. Garantía de 3 meses y cotización sin compromiso."
+    />
+    <meta name="twitter:image" content="https://fontaneroelectricista.com/og-image.jpg" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Fonts (moved out of a CSS @import so they are not render-blocking behind the CSS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap"
+    />
+
+    <!-- Structured data. Keep the reviews in sync with src/components/Reviews/Reviews.js -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["Plumber", "Electrician"],
+        "@id": "https://fontaneroelectricista.com/#negocio",
+        "name": "Carlos Maldonado Íñiguez - Fontanero y Electricista",
+        "url": "https://fontaneroelectricista.com/",
+        "image": "https://fontaneroelectricista.com/og-image.jpg",
+        "telephone": "+523324504074",
+        "description": "Servicios de fontanería y electricidad con más de 15 años de experiencia, garantía de 3 meses y cotización sin compromiso.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Privada Juan Aguirre 527",
+          "addressLocality": "Zapopan",
+          "addressRegion": "Jalisco",
+          "postalCode": "45180",
+          "addressCountry": "MX"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Zapopan" },
+          { "@type": "City", "name": "Guadalajara" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "08:00",
+            "closes": "19:00"
+          }
+        ],
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Privada%20Juan%20Aguirre%20527%2C%20Zapopan%2C%20Jalisco%2C%20M%C3%A9xico%2C%2045180",
+        "sameAs": ["https://www.facebook.com/CarlosMaldonadoIniguez"],
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Uriel Madrigal" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Excelente servicio super recomendado, el joven Carlos super atento, educado, un trabajo limpio y rápido, recomendable al 100%. Ojalá todos brindaran una atención tan buena."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Elsa Garzón" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Atención super rápida, buena atención y excelente servicio. La persona que nos atendió fue muy educado y nos explicó todo muy bien, sinceramente me sorprendió que nos atendiera tan rápido porque tuvimos una emergencia y él inmediatamente acudió. Muy buen trabajo, sinceramente lo recomiendo."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Jose Luis" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Excelente servicio, buena calidad y muy amables, se toman el tiempo para explicar y mejorar el servicio."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Juan Pablo Lizarraga" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Siempre hemos tenido una respuesta eficiente cuando tenemos un problema de mantenimiento. Nos han sacado del apuro más de una vez, ya sean urgentes o no. Lo recomendamos ampliamente."
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Necesitas habilitar JavaScript para ver este sitio.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

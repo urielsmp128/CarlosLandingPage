@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer__inner">
         <span className="footer__brand">
-          <img src={logo} alt="Fontanero Electricista" className="footer__logo" />
+          <img src={logo} alt="Carlos Maldonado, fontanero y electricista en Zapopan" width="360" height="248" className="footer__logo" loading="lazy" />
           Carlos Maldonado Íñiguez
         </span>
 

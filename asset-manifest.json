@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/CarlosLandingPage/static/css/main.0ba0f7d1.css",
-    "main.js": "/CarlosLandingPage/static/js/main.19b3c432.js",
+    "main.css": "/CarlosLandingPage/static/css/main.2e03f55e.css",
+    "main.js": "/CarlosLandingPage/static/js/main.d5e914c7.js",
     "static/js/453.02394a89.chunk.js": "/CarlosLandingPage/static/js/453.02394a89.chunk.js",
+    "static/media/intalacion-de-hidro-tinaco.webp": "/CarlosLandingPage/static/media/intalacion-de-hidro-tinaco.9b7ba2cc894001e27983.webp",
+    "static/media/destape-canerias.webp": "/CarlosLandingPage/static/media/destape-canerias.2af6d08a26af53cedfa9.webp",
+    "static/media/logo.jpg": "/CarlosLandingPage/static/media/logo.bd3e7afa76ada1a8b5ab.jpg",
+    "static/media/instalar-ventilador-techo.jpg": "/CarlosLandingPage/static/media/instalar-ventilador-techo.6e4303ac594918427095.jpg",
+    "static/media/reparacion-de-fugas.webp": "/CarlosLandingPage/static/media/reparacion-de-fugas.0892fa84158d66213c30.webp",
+    "static/media/instalacion-de-sanitarios.webp": "/CarlosLandingPage/static/media/instalacion-de-sanitarios.f3d15b2425c55d817f4e.webp",
+    "static/media/hero.webp": "/CarlosLandingPage/static/media/hero.8ba0bf63feba2fae149d.webp",
+    "static/media/centros-de-carga.jpeg": "/CarlosLandingPage/static/media/centros-de-carga.ab9c486bd149ac62c706.jpeg",
+    "static/media/instalaciones-electricas.jpeg": "/CarlosLandingPage/static/media/instalaciones-electricas.94ab07cd7933f40de329.jpeg",
+    "static/media/automatizacion-basica.jpeg": "/CarlosLandingPage/static/media/automatizacion-basica.f197a1c20706bfd20fa3.jpeg",
+    "static/media/arreglo-de-cables-expuestos.webp": "/CarlosLandingPage/static/media/arreglo-de-cables-expuestos.f8ef50a877e1e833f69a.webp",
     "index.html": "/CarlosLandingPage/index.html",
-    "main.0ba0f7d1.css.map": "/CarlosLandingPage/static/css/main.0ba0f7d1.css.map",
-    "main.19b3c432.js.map": "/CarlosLandingPage/static/js/main.19b3c432.js.map",
+    "main.2e03f55e.css.map": "/CarlosLandingPage/static/css/main.2e03f55e.css.map",
+    "main.d5e914c7.js.map": "/CarlosLandingPage/static/js/main.d5e914c7.js.map",
     "453.02394a89.chunk.js.map": "/CarlosLandingPage/static/js/453.02394a89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ba0f7d1.css",
-    "static/js/main.19b3c432.js"
+    "static/css/main.2e03f55e.css",
+    "static/js/main.d5e914c7.js"
   ]
 }

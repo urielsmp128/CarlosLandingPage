@@ -5,17 +5,17 @@ const ITEMS = [
   {
     icon: ShieldIcon,
     title: 'Garantía de calidad',
-    text: 'Ofrecemos garantía de hasta 3 meses en todos nuestros trabajos realizados.',
+    text: 'Respaldo cada trabajo con garantía de hasta 3 meses, fruto de más de 15 años de experiencia.',
   },
   {
     icon: ChatIcon,
-    title: 'Comunicación directa',
-    text: 'Facilitamos el contacto mediante WhatsApp, Facebook, correo y teléfono para resolver tus dudas.',
+    title: 'Trato directo',
+    text: 'Trato directo conmigo por WhatsApp, Facebook, correo o teléfono para resolver tus dudas.',
   },
   {
     icon: UserIcon,
-    title: 'Atención personalizada',
-    text: 'Nuestro equipo brinda asesoría profesional adaptada a tus necesidades específicas.',
+    title: 'Experiencia y atención personal',
+    text: 'Te asesoro personalmente con el criterio de más de 15 años en el oficio, adaptado a lo que necesitas.',
   },
 ];
 
@@ -24,9 +24,9 @@ function WhyChooseUs() {
     <section className="why">
       <div className="container">
         <div className="why__header">
-          <h2>Servicios profesionales de fontanería y electricidad en tu hogar</h2>
+          <h2>Más de 15 años haciendo fontanería y electricidad en tu hogar</h2>
           <p>
-            Contamos con productos de alta calidad y garantía de hasta 3 meses para tu total
+            Trabajo con productos de alta calidad y garantía de hasta 3 meses para tu total
             tranquilidad y satisfacción.
           </p>
         </div>
@@ -44,8 +44,8 @@ function WhyChooseUs() {
         </div>
 
         <p className="why__quote">
-          “Confiamos en ofrecer un servicio de fontanería y electricidad con calidad
-          insuperable y atención profesional en cada proyecto.”
+          “Me comprometo a ofrecerte un servicio de fontanería y electricidad con calidad
+          y la atención de alguien con más de 15 años de experiencia en cada trabajo.”
         </p>
       </div>
     </section>

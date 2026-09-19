@@ -4,9 +4,9 @@ import logo from '../../assets/images/logo.jpg';
 import './Header.css';
 
 const NAV_LINKS = [
-  { label: 'Servicios', href: '#servicios' },
-  { label: 'Reservación', href: '#contacto' },
-  { label: 'Zona de Cobertura', href: '#cobertura' },
+  { label: 'Inicio', href: '#servicios' },
+  { label: 'Servicios', href: '#contacto' },
+  { label: 'Contacto', href: '#cobertura' },
 ];
 
 function Header() {
@@ -18,7 +18,7 @@ function Header() {
     const ids = NAV_LINKS.map((link) => link.href.slice(1));
     const update = () => {
       const line = window.scrollY + 120;
-      let current = '';
+      let current = ids[0]; // "Inicio" stays active from the top of the page
       ids.forEach((id) => {
         const el = document.getElementById(id);
         if (el && el.offsetTop <= line) current = id;

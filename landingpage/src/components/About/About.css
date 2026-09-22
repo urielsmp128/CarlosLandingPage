@@ -11,9 +11,11 @@
 }
 
 .about__frame {
+  display: block;
+  width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: var(--radius-lg);
-  background: linear-gradient(155deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+  object-fit: cover;
   box-shadow: var(--shadow-md);
 }
 

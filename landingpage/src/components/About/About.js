@@ -1,11 +1,16 @@
 import './About.css';
+import carlosPhoto from '../../assets/images/carlos-maldonado.png';
 
 function About() {
   return (
     <section className="about">
       <div className="container about__inner">
-        <div className="about__media" aria-hidden="true">
-          <div className="about__frame" />
+        <div className="about__media">
+          <img
+            className="about__frame"
+            src={carlosPhoto}
+            alt="Carlos Maldonado Íñiguez"
+          />
         </div>
 
         <div className="about__content">
